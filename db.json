@@ -24,7 +24,14 @@
     }
   ],
   "users": [
-    
+    {
+      "id": 1
+    },
+    {
+      "name": "name",
+      "email": "email",
+      "id": 2
+    }
   ],
   "robots": [
     {

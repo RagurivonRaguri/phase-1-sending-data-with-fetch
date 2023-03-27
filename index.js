@@ -22,7 +22,7 @@ function submitData(name, email) {
         let idText = document.createTextNode(newId);
         document.body.appendChild(idText);
       })
-      .catch(function(error) {
+      .catch(error => {
         let errorText = document.createTextNode(error.message);
         document.body.appendChild(errorText);
       });
